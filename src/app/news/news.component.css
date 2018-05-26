@@ -1,0 +1,11 @@
+#news_list{
+    padding: 0;
+}
+
+#news_list_li{
+    list-style-type: none;
+    margin-bottom: 30px;
+    box-shadow: 10px 5px 10px grey;
+}
+
+

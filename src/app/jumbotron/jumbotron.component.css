@@ -1,0 +1,27 @@
+.fixed-bg{
+    background: url(../../assets/images/family-banner.jpg);
+    background-size: cover;
+    opacity: 0.80;
+    min-height: 500px;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.jumbotron{
+    background: transparent;
+}
+
+.jumbotron-heading{
+    color: #fff;
+    padding: 18px;
+    letter-spacing: 10px;
+}
+
+.lead{
+    background: #545b62;
+    color: #fff;
+    box-shadow: -10px 2px 10px grey;
+
+}
