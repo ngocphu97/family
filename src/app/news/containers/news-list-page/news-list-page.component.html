@@ -1,0 +1,14 @@
+<div>
+  <h2 style="text-align: center">Tin tức</h2>
+  <div class="container">
+    <ul id="news_list">
+      <div class="row">
+        <div class="col-md-4" *ngFor="let news of news_list; let i=index">
+          <li id="news_list_li">
+            <app-news-item [news]="news"></app-news-item>
+          </li>
+        </div>
+      </div>
+    </ul>
+  </div>
+</div>

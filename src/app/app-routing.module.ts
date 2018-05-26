@@ -4,14 +4,20 @@ import { CommonModule } from '@angular/common';
 import { RouterModule, Routes } from '@angular/router';
 
 import { DashboardComponent } from './dashboard/dashboard.component';
-import { NewsComponent } from './news/news.component';
 import { CarouselComponent } from './carousel/carousel.component';
 
 const routes: Routes = [
-  { path: '', redirectTo: '/dashboard', pathMatch: 'full' },
+  { path: '', redirectTo: 'dashboard', pathMatch: 'full' },
   { path: 'dashboard', component: DashboardComponent },
-  { path: 'news', component: NewsComponent },
-  { path: 'carousel', component: CarouselComponent }
+  { path: 'carousel', component: CarouselComponent },
+  {
+    path: 'members',
+    loadChildren: './members/members.module#MembersModule'
+  },
+  {
+    path: 'news',
+    loadChildren: './news/news.module#NewsModule'
+  }
 ];
 
 @NgModule({

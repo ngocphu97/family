@@ -9,10 +9,7 @@ import { CarouselComponent } from './carousel/carousel.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { JumbotronComponent } from './jumbotron/jumbotron.component';
-import { MemberComponent } from './member/member.component';
-import { MemberDetailsComponent } from './member-details/member-details.component';
-import { NewsComponent } from './news/news.component';
-import { AppRoutingModule } from './/app-routing.module';
+import { AppRoutingModule } from './app-routing.module';
 
 
 
@@ -22,10 +19,7 @@ import { AppRoutingModule } from './/app-routing.module';
     CarouselComponent,
     DashboardComponent,
     NavbarComponent,
-    JumbotronComponent,
-    MemberComponent,
-    MemberDetailsComponent,
-    NewsComponent
+    JumbotronComponent
   ],
   imports: [
     BrowserModule,

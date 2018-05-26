@@ -1,0 +1,42 @@
+<table class="table table-hover sticky-header" id="myTable">
+  <thead>
+    <tr>
+      <th scope="col">Name</th>
+      <th scope="col">Email</th>
+      <th scope="col">Address</th>
+      <th scope="col">Phone</th>
+      <th scope="col">Facebook</th>
+      <th scope="col">Ngày sinh</th>
+      <th scope="col">Ngày mất</th>
+      <th scope="col">#</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let member of personList">
+      <td>
+        {{member.name}}
+      </td>
+      <td>
+        {{member.email}}
+      </td>
+      <td>
+        {{member.address}}
+      </td>
+      <td>
+        {{member.phone}}
+      </td>
+      <td>
+        {{member.facebook}}
+      </td>
+      <td>
+        {{member.birthday}}
+      </td>
+      <td>
+        {{member.deadhday}}
+      </td>
+      <td>
+        <a class="btn btn-info">Chi tiet</a>
+      </td>
+    </tr>
+  </tbody>
+</table>
